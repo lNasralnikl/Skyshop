@@ -47,27 +47,6 @@ public class ProductBasket {
 
     }
 
-    /*
-    //Проверка продукта в корзине
-    public void checkProduct(String name) {
-
-        if (name.isBlank()) {
-            throw new IllegalArgumentException("Наименование товара не может быть пустым");
-        }
-        products.forEach(n -> {
-            int index = products.indexOf(n);
-            if (n.getName().equalsIgnoreCase(name)) {
-                System.out.println("Товар в корзине под номером " + (index + 1));
-                check = true;
-            }
-        });
-        if (!check) {
-            System.out.println("Товара " + name + " нет в корзине\n");
-        }
-        System.out.println();
-    }
-
-     */
 
     //Очистка корзины
     public void busketClean() {
