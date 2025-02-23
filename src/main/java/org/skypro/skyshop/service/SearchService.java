@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 @Service
 public class SearchService {
 
-
     private final StorageService storageService;
 
     public SearchService(StorageService storageService){
