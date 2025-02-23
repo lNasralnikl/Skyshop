@@ -6,7 +6,6 @@ import org.skypro.skyshop.model.product.DiscountedProduct;
 import org.skypro.skyshop.model.product.FixPriceProduct;
 import org.skypro.skyshop.model.product.Product;
 import org.skypro.skyshop.model.product.SimpleProduct;
-import org.skypro.skyshop.model.search.SearchResult;
 import org.skypro.skyshop.model.search.Searchable;
 import org.springframework.stereotype.Service;
 
@@ -56,7 +55,6 @@ public class StorageService {
         addProduct(product1);
         addProduct(product2);
         addProduct(product3);
-
         Article article1 = new Article("Варка пива", "Текст", UUID.randomUUID());
         Article article2 = new Article("Название 1", "Текст 2", UUID.randomUUID());
         Article article3 = new Article("Название 2", "Текст 3", UUID.randomUUID());

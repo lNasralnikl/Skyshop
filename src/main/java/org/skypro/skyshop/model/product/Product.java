@@ -35,6 +35,7 @@ public abstract class Product implements Searchable {
         return name;
     }
 
+
     @JsonIgnore
     public String content() {
         return "PRODUCT";
